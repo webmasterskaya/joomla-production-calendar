@@ -8,9 +8,13 @@
  * @link       https://webmasterskaya.xyz/
  */
 
+use webmasterskaya\production\Calendar;
+
 defined('_JEXEC') or die;
 
-class ProductionCalendar extends \carono\production\Calendar
+require_once dirname(__FILE__) . '/vendor/autoload.php';
+
+class ProductionCalendar extends Calendar
 {
 
 }

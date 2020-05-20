@@ -1,2 +1,4 @@
-.idea
-carono
+/.idea
+/vendor/
+/composer.lock
+/*.zip

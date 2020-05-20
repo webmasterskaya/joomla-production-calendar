@@ -11,7 +11,7 @@
     <version>__DEPLOY_VERSION__</version>
     <description>LIB_PRODUCTION_CALENDAR_XML_DESCRIPTION</description>
     <files>
-        <folder>carono</folder>
+        <folder>vendor</folder>
         <filename>ProductionCalendar.php</filename>
     </files>
 </extension>
