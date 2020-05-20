@@ -1,18 +1,5 @@
 {
-    "name": "webmasterskaya/joomla-production-calendar",
-    "authors": [
-        {
-            "name": "Artem Vasilev",
-            "email": "kern.usr@gmail.com"
-        }
-    ],
-    "repositories": [
-        {
-            "url": "https://github.com/webmasterskaya/production-calendar.git",
-            "type": "git"
-        }
-    ],
-    "require": {
-        "webmasterskaya/production-calendar": "^1.1.0"
-    }
+  "require": {
+    "webmasterskaya/production-calendar": "^1.1.0"
+  }
 }
