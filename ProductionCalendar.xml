@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.9" type="library" method="upgrade">
+    <name>LIB_PRODUCTION_CALENDAR</name>
+    <libraryname>production-calendar</libraryname>
+    <author>Artem Vasilev - Webmasterskaya</author>
+    <creationDate>20.05.2020</creationDate>
+    <copyright>Copyright (C) 2020 Webmasterskaya. All rights reserved.</copyright>
+    <license>GNU General Public License version 3 or later; see LICENSE.txt</license>
+    <authorEmail>dev@webmasterskaya.xyz</authorEmail>
+    <authorUrl>https://webmasterskaya.xyz</authorUrl>
+    <version>__DEPLOY_VERSION__</version>
+    <description>LIB_PRODUCTION_CALENDAR_XML_DESCRIPTION</description>
+    <files>
+        <folder>carono</folder>
+        <filename>ProductionCalendar.php</filename>
+    </files>
+</extension>
