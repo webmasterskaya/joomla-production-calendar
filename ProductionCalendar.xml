@@ -10,6 +10,14 @@
     <authorUrl>https://webmasterskaya.xyz</authorUrl>
     <version>__DEPLOY_VERSION__</version>
     <description>LIB_PRODUCTION_CALENDAR_XML_DESCRIPTION</description>
+
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.lib_production-calendar.ini</language>
+        <language tag="en-GB">en-GB/en-GB.lib_production-calendar.sys.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.lib_production-calendar.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.lib_production-calendar.sys.ini</language>
+    </languages>
+
     <files>
         <folder>vendor</folder>
         <filename>ProductionCalendar.php</filename>
