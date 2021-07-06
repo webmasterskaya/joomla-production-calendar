@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.9" type="library" method="upgrade">
-    <name>LIB_PRODUCTION_CALENDAR</name>
-    <libraryname>production-calendar</libraryname>
-    <author>Artem Vasilev - Webmasterskaya</author>
-    <creationDate>20.05.2020</creationDate>
-    <copyright>Copyright (C) 2020 Webmasterskaya. All rights reserved.</copyright>
-    <license>GNU General Public License version 3 or later; see LICENSE.txt</license>
-    <authorEmail>dev@webmasterskaya.xyz</authorEmail>
-    <authorUrl>https://webmasterskaya.xyz</authorUrl>
-    <version>__DEPLOY_VERSION__</version>
-    <description>LIB_PRODUCTION_CALENDAR_XML_DESCRIPTION</description>
+	<name>LIB_PRODUCTION_CALENDAR</name>
+	<libraryname>production-calendar</libraryname>
+	<author>Artem Vasilev - Webmasterskaya</author>
+	<creationDate>20.05.2020</creationDate>
+	<copyright>Copyright (C) 2021 Webmasterskaya. All rights reserved.</copyright>
+	<license>MIT, see LICENSE.txt</license>
+	<authorEmail>dev@webmasterskaya.xyz</authorEmail>
+	<authorUrl>https://webmasterskaya.xyz</authorUrl>
+	<version>__DEPLOY_VERSION__</version>
+	<description>LIB_PRODUCTION_CALENDAR_XML_DESCRIPTION</description>
 
-    <languages folder="language">
-        <language tag="en-GB">en-GB/en-GB.lib_production-calendar.ini</language>
-        <language tag="en-GB">en-GB/en-GB.lib_production-calendar.sys.ini</language>
-        <language tag="ru-RU">ru-RU/ru-RU.lib_production-calendar.ini</language>
-        <language tag="ru-RU">ru-RU/ru-RU.lib_production-calendar.sys.ini</language>
-    </languages>
+	<scriptfile>script.php</scriptfile>
 
-    <files>
-        <folder>vendor</folder>
-        <filename>ProductionCalendar.php</filename>
-    </files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.lib_production-calendar.ini</language>
+		<language tag="en-GB">en-GB/en-GB.lib_production-calendar.sys.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.lib_production-calendar.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.lib_production-calendar.sys.ini</language>
+	</languages>
+
+	<files>
+		<folder>ProductionCalendar</folder>
+		<filename>ProductionCalendar.php</filename>
+	</files>
+
+	<cli destination="" folder="cli">
+		<filename>updateProductionCalendar.php</filename>
+	</cli>
 </extension>
