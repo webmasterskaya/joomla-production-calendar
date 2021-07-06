@@ -1,7 +1,7 @@
 <?php
 /**
  * @package    Joomla.Library - Production calendar
- * @version    __DEPLOY_VERSION__
+ * @version    2.0.1
  * @author     Artem Vasilev - webmasterskaya.xyz
  * @copyright  Copyright (c) 2018 - 2021 Webmasterskaya. All rights reserved.
  * @license    GNU/GPL license: https://www.gnu.org/copyleft/gpl.html
@@ -28,7 +28,7 @@ class libProductionCalendarInstallerScript
 	 *
 	 * @var  string
 	 *
-	 * @since  __DEPLOY_VERSION__
+	 * @since  2.0.1
 	 */
 	protected $minimumPhp = '7.0';
 
@@ -37,7 +37,7 @@ class libProductionCalendarInstallerScript
 	 *
 	 * @var  string
 	 *
-	 * @since  __DEPLOY_VERSION__
+	 * @since  2.0.1
 	 */
 	protected $minimumJoomla = '3.9.0';
 
@@ -51,7 +51,7 @@ class libProductionCalendarInstallerScript
 	 *
 	 * @return  boolean True on success, false on failure.
 	 *
-	 * @since  __DEPLOY_VERSION__
+	 * @since  2.0.1
 	 */
 	function preflight($type, $parent)
 	{
@@ -73,7 +73,7 @@ class libProductionCalendarInstallerScript
 	 *
 	 * @return  boolean True on success, false on failure.
 	 *
-	 * @since  __DEPLOY_VERSION__
+	 * @since  2.0.1
 	 */
 	protected function checkCompatible($prefix = null)
 	{
@@ -131,7 +131,7 @@ class libProductionCalendarInstallerScript
 	 *
 	 * @return  boolean True on success, false on failure.
 	 *
-	 * @since  __DEPLOY_VERSION__
+	 * @since  2.0.1
 	 */
 	function postflight($type, $parent)
 	{
@@ -160,7 +160,7 @@ class libProductionCalendarInstallerScript
 	 *
 	 * @param   InstallerAdapter  $parent  Parent object calling object.
 	 *
-	 * @since  __DEPLOY_VERSION__
+	 * @since  2.0.1
 	 */
 	protected function enablePlugin($parent)
 	{
@@ -186,7 +186,7 @@ class libProductionCalendarInstallerScript
 	 *
 	 * @return  boolean  True on success.
 	 *
-	 * @since  __DEPLOY_VERSION__
+	 * @since  2.0.1
 	 */
 	public function parseCLI(SimpleXMLElement $element, $installer)
 	{
@@ -247,7 +247,7 @@ class libProductionCalendarInstallerScript
 	 *
 	 * @param   InstallerAdapter  $parent  Parent object calling object.
 	 *
-	 * @since  __DEPLOY_VERSION__
+	 * @since  2.0.1
 	 */
 	public function uninstall($parent)
 	{
@@ -262,7 +262,7 @@ class libProductionCalendarInstallerScript
 	 *
 	 * @return  boolean  True on success.
 	 *
-	 * @since  __DEPLOY_VERSION__
+	 * @since  2.0.1
 	 */
 	protected function removeCLI(SimpleXMLElement $element)
 	{

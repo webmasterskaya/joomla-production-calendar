@@ -1,7 +1,7 @@
 <?php
 /**
  * @package    Joomla.Library - Production calendar
- * @version    __DEPLOY_VERSION__
+ * @version    2.0.1
  * @author     Artem Vasilev - webmasterskaya.xyz
  * @copyright  Copyright (c) 2018 - 2021 Webmasterskaya. All rights reserved.
  * @license    MIT, see LICENSE.txt
